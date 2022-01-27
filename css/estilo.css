@@ -27,8 +27,7 @@
     /*Fontes*/
     --font_titulo: 'letra quebrada';
     --font_titulo2: 'cinema';
-
-
+   
 }
 
 * {
@@ -37,14 +36,15 @@
 }
 
 body {
-    /*background-color: var(--corfundo);*/
+    background-color: var(--corfundo);
 }
 
+/*Modelo de título pronto para o site
 h1 {
     font-family: var(--font_titulo);
     color: rgb(201, 21, 21);
     font-size: 10em;
     text-shadow: 3px 3px 0.550px black;
-    
+}*/
 
-}
+
