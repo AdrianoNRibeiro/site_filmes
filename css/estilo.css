@@ -1,12 +1,34 @@
 @charset "UTF-08";
 
+@font-face {
+    font-family: 'cinema';
+    src: url('/fontes/cinema_st.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'letra quebrada';
+    src: url('/fontes/VehicleBreaksDown-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 :root {
+
+    /*Cores*/
     --corfundo: #151B27;
     --cor01: #4C919C;
     --cor02: #395D75;
     --cor03: #1E203D;
     --cor04: #1E1933;
+
+    /*Fontes*/
+    --font_titulo: 'letra quebrada';
+    --font_titulo2: 'cinema';
+
+
 }
 
 * {
@@ -14,3 +36,15 @@
     padding: 0px;
 }
 
+body {
+    /*background-color: var(--corfundo);*/
+}
+
+h1 {
+    font-family: var(--font_titulo);
+    color: rgb(201, 21, 21);
+    font-size: 10em;
+    text-shadow: 3px 3px 0.550px black;
+    
+
+}
